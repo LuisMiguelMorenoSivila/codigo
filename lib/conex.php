@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:dbname=bd_ika;host=localhost'; //MODIFICAR EL "bd_ika" POR UNO ACTUAL 
+$dsn = 'mysql:dbname=bada_ika;host=localhost'; 
 	$usuario = 'root';
 	$contrasenia = '';
 
