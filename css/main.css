@@ -1,0 +1,45 @@
+html, body { 
+    height: 100%;
+     margin: 0;
+     padding: 0;
+} 
+body { 
+    background: linear-gradient(to bottom, #802020, #424141);
+    display: flex;         
+    flex-direction: column; 
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    background: linear-gradient(to bottom,#414141,#5b5b5b);
+    /* height: 200px; */
+    margin: 0;
+    padding: 0;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+body{
+    background: linear-gradient(to bottom,#802020,#424141);
+    height: 30%;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    text-align: right;
+    
+}
+.menu-link{
+    color: #fcfcfc;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
