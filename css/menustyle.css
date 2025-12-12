@@ -53,6 +53,7 @@ ul {
     position: absolute;
     min-width: 140px;
     background: linear-gradient(to bottom, #802020, #424141);
+    
 }
 
 .nav li:hover > ul {
@@ -61,9 +62,10 @@ ul {
 
 .nav li ul li {
     position: relative;
+
 }
 
 .nav li ul li ul {
-    right: -145px;
+    left: 100%;
     top: 0;
 }
