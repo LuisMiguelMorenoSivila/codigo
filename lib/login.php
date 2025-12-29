@@ -18,14 +18,14 @@ if ($conex1 === "si") {
             header("Location: ../index.html"); //CAMBIAR LA LOCATION.HREF
             exit;
         } else {
-            echo "<script>alert('Contraseña incorrecta'); window.location.href='index.html';</script>";
+            echo "<script>alert('Contraseña incorrecta'); window.location.href='index.html';</script>"; //CAMBIAR LA LOCATION.HREF
             exit;
         }
     } else {
-        echo "<script>alert('Usuario no encontrado'); window.location.href='index.html';</script>";
+        echo "<script>alert('Usuario no encontrado'); window.location.href='index.html';</script>"; //CAMBIAR LA LOCATION.HREF
         exit;
     }
 } else {
-    echo "<script>alert('Error de conexión con la base de datos');</script>";
+    echo "<script>alert('Error de conexión con la base de datos');</script>"; //CAMBIAR LA LOCATION.HREF
 }
 ?>
