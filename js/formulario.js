@@ -39,6 +39,6 @@ function jsedit(idu, nomu, apeu, dniu, telu, diru, corr, cla) {
 
 function jsdel(del_id) {
     if (confirm("Eliminar Registro? " + del_id)) {
-        location.href = "lib/lib1.php?delreg1=" + del_id;
+        location.href = "lib/lib1.php?delreg1=" + del_id; //CAMBIAR LA LOCATION.HREF
     }
 }

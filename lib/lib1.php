@@ -1,5 +1,6 @@
 <?php
     include('conex.php');
+    // CAMBIAR CONEX1 A CONEX
     if ($conex1 == "si"){
         if (isset($_POST['newreg1'])){
             $c_id = $_POST['iduser'];
@@ -46,5 +47,5 @@
                 $msg = ($num_reg) ? "Se Eliminó $num_reg registro" : "No se pudo eliminar";
             }
         }
-    header("location: ../index.php?m=$msg");
+    header("location: ../index.php?m=$msg"); //CAMBIAR LOCATION Y AGREGAR UN ARCHIVO "INFOUSER"
 ?>

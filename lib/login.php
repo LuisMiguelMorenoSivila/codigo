@@ -1,5 +1,5 @@
 <?php
-include('conex.php');
+include('conex.php'); // AGREGAR DATOS A LA BASE DE DATOS
 
 if ($conex1 === "si") {
     $usuario = trim($_POST['usuario']);
@@ -15,7 +15,7 @@ if ($conex1 === "si") {
         $clave_encriptada = $row['clauser'];
 
         if (password_verify($clave, $clave_encriptada)) {
-            header("Location: pag1.html");
+            header("Location: ../index.html"); //CAMBIAR LA LOCATION.HREF
             exit;
         } else {
             echo "<script>alert('Contraseña incorrecta'); window.location.href='index.html';</script>";
