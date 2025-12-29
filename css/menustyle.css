@@ -10,8 +10,8 @@ html, body {
 
 body {
     background: rgb(245, 233, 233);
-    display: flex;
-    flex-direction: column;
+    display: flex; /* se acomoda en entornos */
+    flex-direction: column; /* esta en columna */
 }
 
 #header {
@@ -25,20 +25,20 @@ body {
 
 
 ul {
-    list-style: none;
+    list-style: none; /* bloquea listado */
 }
 
 .nav {
-    position: sticky;
+    position: sticky; /* lo mismo we */
     top: 0px; /* ajusta según la altura del header */
-    width: 100%;
+    width: 100%; /* anchura */
     background: linear-gradient(to bottom, #802020, #424141);
-    z-index: 999;
+    z-index: 999; /* no cambiar */
 }
 
 
 .nav > li {
-    float: left;
+    float: left; /* lo envia hacia la izquierda */
 }
 
 .nav li a {
