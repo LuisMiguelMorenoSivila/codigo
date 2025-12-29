@@ -41,7 +41,7 @@
   .slider-nav a {
       width: .5rem;
       height: .5rem;
-      border-radius: 50%;
+      border-radius: 70%;
       background-color: rgb(1, 55, 102);
       opacity: .75;
       transition: opacity ease 250ms;
