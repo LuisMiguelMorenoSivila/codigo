@@ -3,14 +3,14 @@ const slides = slider.querySelectorAll("img");      // selecciona todas las imá
 let index = 0;
 
 function showSlide(i) {
-  slider.scrollTo({
+slider.scrollTo({
     left: i * slider.clientWidth,                   // mueve el scroll al ancho de cada slide
     behavior: "smooth"                              // animación suave
-  });
+});
 }
 
 setInterval(() => {
-  index++;
-  if (index >= slides.length) index = 0;            // vuelve al inicio si llega al final
-  showSlide(index);
-}, 1500);                                           // cada 1.5 segundos
+index++;
+if (index >= slides.length) index = 0;            // vuelve al inicio si llega al final
+showSlide(index);
+}, 3000);                                           // cada 3 segundos
