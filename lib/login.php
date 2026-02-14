@@ -15,14 +15,14 @@ if ($conex1 === "si") {
         $clave_encriptada = $row['clauser'];
 
         if (password_verify($clave, $clave_encriptada)) {
-            header("Location: ../index.html"); //CAMBIAR LA LOCATION.HREF
+            header("Location: ../sesion.html"); //CAMBIAR LA LOCATION.HREF
             exit;
         } else {
-            echo "<script>alert('Contraseña incorrecta'); window.location.href='index.html';</script>"; //CAMBIAR LA LOCATION.HREF
+            echo "<script>alert('Contraseña incorrecta'); window.location.href='sesion.html';</script>"; //CAMBIAR LA LOCATION.HREF
             exit;
         }
     } else {
-        echo "<script>alert('Usuario no encontrado'); window.location.href='index.html';</script>"; //CAMBIAR LA LOCATION.HREF
+        echo "<script>alert('Usuario no encontrado'); window.location.href='sesion.html';</script>"; //CAMBIAR LA LOCATION.HREF
         exit;
     }
 } else {
