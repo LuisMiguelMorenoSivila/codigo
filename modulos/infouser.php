@@ -62,6 +62,9 @@
             </tr>
             <?=$tablaBody; ?> 
         </table>
+        <br><br><br>
+        <?@$_GET['m']; ?>
     </section>
+    <script src="../js/formulario.js"></script>
 </body>
 </html>
