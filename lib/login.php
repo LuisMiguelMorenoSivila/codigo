@@ -1,7 +1,7 @@
 <?php
 include('conex.php'); // AGREGAR DATOS A LA BASE DE DATOS
 
-if ($conex1 === "si") {
+if ($conex === "si") {
     $usuario = trim($_POST['usuario']);
     $clave   = trim($_POST['contraseña']);
 

@@ -1,0 +1,12 @@
+table{
+    background-color:#888;
+}
+table td,table th{
+    background-color:#ce2c2c;
+}
+.formulario{
+    border: solid 1px #999; 
+    padding:5px; 
+    width:300px; 
+    text-align:right;
+}
