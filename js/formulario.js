@@ -23,7 +23,7 @@ b_cancel.onclick = () => {                                              //Para C
     b_newreg.name = "newreg1";   
     b_newreg.value = "Agregar";
 }
-
+/*
 function jsedit(idu, nomu, apeu, dniu, telu, diru, corr, cla) {         //Para Editar
     b_iduser.readOnly = true;
     b_iduser.value = idu;
@@ -34,6 +34,21 @@ function jsedit(idu, nomu, apeu, dniu, telu, diru, corr, cla) {         //Para E
     b_diruser.value = diru;
     b_coruser.value = corr;
     b_clauser.value = cla;
+    b_newreg.name = "editreg1"; 
+    b_newreg.value = "Guardar Cambios";
+}
+*/
+function jsedit(idu, nomCompleto, dniu, telu, diru, corr, cla) {
+    let partes = nomCompleto.split(", ");
+    b_iduser.readOnly = true;
+    b_iduser.value = idu;
+    b_nomuser.value = partes[0] || "";
+    b_apeuser.value = partes[1] || "";
+    b_dniuser.value = dniu;
+    b_teluser.value = telu;
+    b_diruser.value = diru;
+    b_coruser.value = corr;
+    b_clauser.value = "";
     b_newreg.name = "editreg1"; 
     b_newreg.value = "Guardar Cambios";
 }
