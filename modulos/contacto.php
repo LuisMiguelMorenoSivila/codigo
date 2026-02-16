@@ -8,6 +8,7 @@
 </head>
 <body>
   <header>
+    <button class="back-button" onclick="window.location.href='../index.html'" >←</button>
     <h1>Contáctanos</h1>
     <p>Es muy importante para nosotros que te contactes por cualquier duda, comentario o inconveniente con nuestros productos.
     No olvides completar todo el formulario para que podamos responderte!</p>
