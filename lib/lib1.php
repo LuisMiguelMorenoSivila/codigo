@@ -47,5 +47,5 @@
                 $msg = ($num_reg) ? "Se Eliminó $num_reg registro" : "No se pudo eliminar";
             }
         }
-    header("location: ../modulos/infouser.php?m=$msg"); //CAMBIAR LOCATION "♦" Y AGREGAR UN ARCHIVO "INFOUSER"
+    header("location: ../modulos/infouser.php?m=$msg"); //CAMBIAR LOCATION "♦" Y AGREGAR UN ARCHIVO "INFOUSER" ♦
 ?>

@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <title>Catálogo de Repuestos</title>
   <link rel="stylesheet" href="../css/brands.css">
-</head>
+</head>  
+<header>
+    <button class="back-button" onclick="window.location.href='../index.html'" >←</button>
+</header>    
 <body>
   <h1>Catálogo de Marcas de Repuestos</h1>
   
@@ -38,8 +41,8 @@
   </div>
   <div class="marca">
     <a href="https://www.denso.com" target="_blank">
-      <img src="../images/marcassec/denso.png" alt="Denso">
-      <p>Denso</p>
+      <img src="../images/marcassec/skf.png" alt="SKF">
+      <p>SKF</p>
     </a>
   </div>
   <div class="marca">

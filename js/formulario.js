@@ -38,7 +38,7 @@ function jsedit(idu, nomu, apeu, dniu, telu, diru, corr, cla) {         //Para E
     b_newreg.value = "Guardar Cambios";
 }
 */
-function jsedit(idu, nomCompleto, dniu, telu, diru, corr, cla) {
+function jsedit(idu, nomCompleto, dniu, telu, diru, corr, cla) {        //Para Editar
     let partes = nomCompleto.split(", ");
     b_iduser.readOnly = true;
     b_iduser.value = idu;

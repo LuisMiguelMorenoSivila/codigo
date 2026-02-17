@@ -38,7 +38,7 @@
     <section class="info">
       <h2>Información del negocio</h2>
       <p><strong>Teléfono:</strong> 03884040275</p>
-      <p><strong>Email:</strong> contacto@tuempresa.com</p>
+      <p><strong>Email:</strong> todoika@hotmail.com</p>
       <p><strong>Dirección:</strong> San Salvador de Jujuy Jujuy AR, Campero 371, Y4600 HMG</p>
       <p><strong>Horarios:</strong>  Lunes a Viernes de 8:30 a 20:00 hs | Sábado de 8:30 a 14:00 hs y 16:00 a 20:00 hs.
        | Postventa: Lunes a Viernes de 8:30 a 17:30 hs.</p>

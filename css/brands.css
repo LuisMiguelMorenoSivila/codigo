@@ -2,6 +2,20 @@ html, body {
   height: 100%;
   margin: 0;
 }
+button.back-button {
+  position: absolute;
+  top: 0.1rem;
+  left: 0.25rem;
+  background: transparent ;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button.back-button:hover {
+  background: linear-gradient(to bottom, #802020, #424141);
+}
 
 body {
   font-family: Arial, sans-serif;
