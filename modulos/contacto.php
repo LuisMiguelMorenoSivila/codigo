@@ -43,8 +43,7 @@
       <p><strong>Horarios:</strong>  Lunes a Viernes de 8:30 a 20:00 hs | Sábado de 8:30 a 14:00 hs y 16:00 a 20:00 hs.
        | Postventa: Lunes a Viernes de 8:30 a 17:30 hs.</p>
     </section>
-
-    <section class="mapa">
+    <section class="mapa">          
     <h2>Ubicación</h2>
     <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.123456789!2d-65.3001903!3d-24.1926195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f457c08456f%3A0xa90d536e1cf933ec!2sTodo%20Ika%20Repuestos!5e0!3m2!1ses!2sar!4v1700000000000"
